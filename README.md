@@ -187,4 +187,13 @@ A YouTube API integration using the Model Context Protocol.
 Always keep your API keys secure and never commit them to version control.
 
 ## Prueba de activación de Cloud Build
-Esta es una prueba de Cloud Build.
+Esta es una prueba de Cloud Build:
+la prueba consiste en ejecutar en cloud shell
+pwd
+luego modificar REadme como ejemplo
+echo "Trigger test $(date)" >> README.md
+git add README.md
+git commit -m "Trigger test - $(date)"
+git push origin main
+
+
